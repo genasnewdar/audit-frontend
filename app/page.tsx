@@ -34,11 +34,11 @@ export default function Home() {
 					</div>
 				</div>
 			</div>
-			<CImgBanner style={{background: "url(/banner.png) no-repeat center center/cover"}} className="bg-[#000000]">Unlock the Power of Lever: Elevate Your Academy, Online Course, or Educational <br className="hidden md:block" /> Organization with Seamless Automation, Empowering Your Educators to Focus on Their <br className="hidden md:block" /> True Passion – Teaching Excellence!</CImgBanner>
+			<CImgBanner style={{background: "url(/banner.png) no-repeat center center/cover"}} className="bg-[#000000]">Unlock the Power of Lever: <br className="hidden md:block"/><br className="hidden md:block"/> <br className="hidden md:block"/> Elevate Your Academy, Online Course, or Educational Organization with Seamless <br className="hidden md:blokc" /> Automation, Empowering Your Educators to Focus on Their True Passion                           –Teaching Excellence!</CImgBanner>
 			<SOurService />
 			<SMockPool />
 			<CTextBanner title="About Us" desk="Lever is an EdTech-as-a-service solution that takes advantage of cutting-edge technology such as automation, AI, and big data." className="text-xl md:text-[32px] leading-[42px] text-black-900"/>
-			<CTextBanner desk="Courses was fantastic! It is Master platform for those looking to start a new career, or need a refresher." className="text-xl md:text-[48px] leading-[36px] md:leading-[60px] font-medium bg-[#F9FAFB] text-black-900"/>
+			<CTextBanner title={<div className="h-[48px] w-[170px] relative m-auto"><Image src="/Vector.png" alt="logo" fill /></div>} desk="“Your EdTech Solution”." className="text-xl md:text-[48px] leading-[36px] md:leading-[60px] font-medium bg-[#F9FAFB] text-black-900"/>
 		</div>
 	);
 }

@@ -34,10 +34,9 @@ export default function AboutUS() {
 					</div>
 				</div>
 			</div>
-			<div className="w-full h-[300px] flex justify-center items-center relative border-primary-900 border-[10px] rounded-[60px] ">
-				<div className=" absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-xl text-center leading-[150%] md:text-[36px] flex justify-center items-center bg-white h-[400px] max-w-[751px] px-4">
-					Lever is dedicated to championing six transformative objectives aligned with the United Nations Sustainable Development Goals (SDGs), driving positive change and global impact. 
-				</div>
+			<div className="w-full h-[400px] flex justify-center items-center relative border-primary-900 border-[10px] rounded-[60px] ">
+				<div className=" absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-lg text-center leading-[150%] md:text-[28px] flex justify-center items-center bg-white h-[500px] max-w-[751px] px-4">
+				Our EaaS (EdTech-as-a-Service) platform commits to being carbon neutral by leveraging external APIs to offset carbon emissions from student usage. Through strategic investments in carbon offset projects, we ensure our educational initiatives align with Sustainable Development Goals, particularly SDG 4 (Quality Education) and SDG 13 (Climate Action), fostering a sustainable and responsible educational environment.</div>
 			</div>
 		</div>
 	);

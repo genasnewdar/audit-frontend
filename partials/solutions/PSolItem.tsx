@@ -11,7 +11,7 @@ const PSolItem:FunctionComponent<IPSolItem> = ({number, title, className, ...att
     return (
         <div className="flex gap-[40px] items-center" {...attr}>
             <div className="text-[#CDA274] text-lg md:text-[25px] leading-7 ">{number}</div>
-            <p className="text-[#4D5053]  text-lg md:text-[22px] leading-[220%]">{title}</p>
+            <p className="text-[#4D5053]  text-lg md:text-[22px] leading-[150%]">{title}</p>
         </div>
     )
 }
