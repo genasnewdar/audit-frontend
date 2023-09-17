@@ -1,14 +1,14 @@
 export const LMiniBanners = [
     {
-        name: "intent",
-        desk: "There are many variations of the passages of lorem Ipsum from available, majority.",
+        name: "EaaS ",
+        desk: "EdTech-as-a-Service Offering main Lever service.",
     },
     {
-        name: "how we’re doing",
-        desk: "There are many variations of the passages of lorem Ipsum from available, majority.",
+        name: "Enterprise Solution",
+        desk: "Offering unique service especially meets your needs.",
     },
     {
-        name: "what we’re aiming",
-        desk: "There are many variations of the passages of lorem Ipsum from available, majority..",
+        name: "Online Course",
+        desk: "Offering infrastructure for the online teachers ",
     },
 ]

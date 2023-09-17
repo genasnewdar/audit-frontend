@@ -8,7 +8,7 @@ const CTrend = () => {
             </div>
             <div className="flex w-full flex-col justify-start text-start gap-4 md:gap-8">
                 <h5 className="text-xl md:text-2xl font-medium text-primary-900 ">Education is undergoing a transformative shift, driven by technology and AI. </h5>
-                <p className="text-black-900 leading-6 ">Education is undergoing a transformative shift, driven by technology and AI. These tools are revolutionizing the classroom, offering personalized learning experiences, automating administrative tasks, and enabling remote education.</p>
+                <p className="text-black-900 leading-6 ">These tools are revolutionizing the classroom, offering personalized learning experiences, automating administrative tasks, and enabling remote education.</p>
                 <p> This dynamic shift not only enhances efficiency but also empowers educators and learners to explore new horizons in the ever-evolving landscape of knowledge acquisition.</p>
             </div>
         </div>
