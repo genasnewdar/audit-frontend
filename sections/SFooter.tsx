@@ -1,5 +1,5 @@
 const SFooter = () => {
-	return <>Footer</>;
+  return <>Footser</>;
 };
 
 export default SFooter;
