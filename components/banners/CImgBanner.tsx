@@ -11,9 +11,10 @@ const CImgBanner: FunctionComponent<ICImgBanner> = ({
 }) => {
 	return (
 		<div
-			className={`text-center  text-white  text-xl md:text-[28px] md:leading-[38px] flex justify-center items-center container py-10 md:py-[111px] tracking-tighter px-5 md:px-[64px] ${className}`}
+			className={`banner overflow-hidden relative text-center  text-white  text-xl md:text-[28px] md:leading-[38px] flex justify-center items-center container py-10 md:py-[111px] tracking-tighter px-5 md:px-[64px] ${className}`}
 			{...attr}>
-			{children}
+
+			<p className="z-[2]">{children}</p>
 		</div>
 	);
 };

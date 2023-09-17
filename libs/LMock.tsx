@@ -1,6 +1,5 @@
-import { Mail, MapPin, Phone } from 'lucide-react';
-
-
-export const LMock:Array<any> = [
-    {name: "Bagshiin deed, Baigal center ", icon: <MapPin size={28}/>},
+export const LMock:Array<{title: string, desk: string, imgUrl: string}> = [
+    {title: "IELTS", desk: "Take IELTS mock tests to check your readiness", imgUrl: "/image.png"},
+    {title: "TOEFL", desk: "Take IELTS mock tests to check your readiness", imgUrl: "/image-1.png"},
+    {title: "SAT", desk: "Take IELTS mock tests to check your readiness", imgUrl: "/image-2.png"},
 ]
