@@ -1,6 +1,7 @@
-import { PButton } from "@/partials";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+
+import { PButton } from "@/partials";
 
 export default function AboutUS() {
 	return (

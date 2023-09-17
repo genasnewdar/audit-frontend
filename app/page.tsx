@@ -20,7 +20,8 @@ export default function Home() {
 					</div>
 				</div>
 				<div className="relative">
-					<div className="bg-primary-900 rounded-full w-[538px] h-[538px] ">
+					<div className=" relative bg-primary-900 rounded-full flex justify-center z-[3] w-[538px] h-[538px] ">
+						<Image src="/boy.png" alt="boy" width={417} height={600} />
 
 					</div>
 					<div className="absolute -top-4 -left-4 border border-primary-900 rounded-full w-[538px] h-[538px] ">
