@@ -8,9 +8,9 @@ import { SMockPool, SOurService } from "@/sections";
 export default function Home() {
 	return (
 		<div className="flex px-2 gap-10 md:gap-[200px] mb-[96px] flex-col items-center justify-between ">
-			<div className="h-[calx(screen - 200px)] relative flex w-full container m-auto justify-between">
+			<div className="h-[calx(screen - 200px)] relative flex flex-col md:flex-row w-full container m-auto justify-between">
 				<div className="flex flex-col gap-10">
-					<div className="p-10 font-semibold text-2xl md:text-[64px] W-FULL md:p-[90px] flex flex-col gap-10">
+					<div className="p-10 font-semibold text-2xl md:text-[64px] W-FULL md:p-[90px] flex flex-col gap-4 md:gap-10">
 						<span>TAKE YOUR<br/></span>
 						<span><span className="text-[#276EF1]">ACADEMY</span> TO <br/></span>
 						<span>THE <span className="text-[#276EF1]">NEXT LEVEL</span> <br/></span>

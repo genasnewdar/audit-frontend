@@ -10,7 +10,7 @@ const PHeaderInput: FunctionComponent<IPHeaderInput> = ({
 	...attr
 }) => {
 	return (
-		<div className="border rounded-[8px] relative overflow-hidden min-w-[360px] p-[2px] flex justify-between ">
+		<div className="border hidden md:flex rounded-[8px] relative overflow-hidden min-w-[360px] p-[2px] justify-between ">
 			<Search className="absolute top-1/2 text-black-400 -translate-y-1/2 left-2 " />
 			<input
 				type="text"
