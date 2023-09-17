@@ -24,7 +24,7 @@ const SOurService = () => {
                             EdTech-as-a-Service <br/>
                             Offering main Lever service
                         </p>
-                        <p className=" text-primary-900 text-start font-semibold flex items-center" >Learn More <ChevronRight/></p>
+                        {/* <p className=" text-primary-900 text-start font-semibold flex items-center" >Learn More <ChevronRight/></p> */}
                     </div>
                     <div className="px-5 rounded-2xl py-4 shadow-2xl min-w-full md:min-w-[370px] md:px-[30px] md:py-[30px] w-full flex max-w-[380px] justify-start items-start flex-col gap-4 md:gap-[30px]">
                         <div className="flex gap-4 items-center">
@@ -34,7 +34,7 @@ const SOurService = () => {
                         <p className="text-[#646464]">
                             Offering unique service especially <br/> meets your needs
                         </p>
-                        <p className=" text-primary-900 text-start font-semibold flex items-center" >Learn More <ChevronRight/></p>
+                        {/* <p className=" text-primary-900 text-start font-semibold flex items-center" >Learn More <ChevronRight/></p> */}
                     </div>
                     <div className="px-5 rounded-2xl py-4 shadow-2xl min-w-full md:min-w-[370px] md:px-[30px] md:py-[30px] w-full flex max-w-[380px] justify-start items-start flex-col gap-4 md:gap-[30px]">
                         <div className="flex gap-4 items-center">
@@ -44,7 +44,7 @@ const SOurService = () => {
                         <p className="text-[#646464]">
                         Offering infrastructure for the online <br/> teachers
                         </p>
-                        <p className=" text-primary-900 text-start font-semibold flex items-center" >Learn More <ChevronRight/></p>
+                        {/* <p className=" text-primary-900 text-start font-semibold flex items-center" >Learn More <ChevronRight/></p> */}
                     </div>
                 </div>
             </div>
