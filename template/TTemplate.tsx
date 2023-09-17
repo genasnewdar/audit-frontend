@@ -1,5 +1,6 @@
-import { SFooter, SHeader } from "@/sections";
 import { FunctionComponent, ReactNode } from "react";
+
+import { SFooter, SHeader } from "@/sections";
 
 interface ITTemplate {
 	children: ReactNode;
@@ -7,7 +8,7 @@ interface ITTemplate {
 
 const TTemplate: FunctionComponent<ITTemplate> = ({ children }) => {
 	return (
-		<div className="w-full flex flex-col min-h-screen">
+		<div className="w-full min-h-screen flex flex-col">
 			<SHeader />
 			{children}
 			<SFooter />

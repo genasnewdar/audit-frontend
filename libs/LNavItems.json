@@ -1,0 +1,17 @@
+[{
+        "href": "/",
+        "name": "Merchants"
+    },
+    {
+        "href": "/solution",
+        "name": "Solution"
+    },
+    {
+        "href": "/about_us",
+        "name": "About Us"
+    },
+    {
+        "href": "/contact",
+        "name": "Contact"
+    }
+]
