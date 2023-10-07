@@ -8,7 +8,7 @@ interface ITTemplate {
 
 const TTemplate: FunctionComponent<ITTemplate> = ({ children }) => {
 	return (
-		<div className="w-full min-h-screen flex flex-col">
+		<div className="w-full min-h-screen mt-40 flex flex-col">
 			<SHeader />
 			{children}
 			<SFooter />
