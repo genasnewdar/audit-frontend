@@ -11,13 +11,15 @@ const CHeaderNav = () => {
 	const [navbar, setNavbar] = useState(false);
 	return (
 		<>
-			<div className="hidden md:flex gap-4 md:gap-[25px]">
+			<div className="hidden md:flex flex-col gap-4 md:gap-[25px]">
 				{LIBS.navItems?.map((e, i) => (
 					<PNavItem isPath={navigation === e?.href} key={i} href={e.href}>
 						{e.name}
 					</PNavItem>
 				))}
 			</div>
+            
+
 			<div className="md:hidden relative whitespace-nowrap py-4 px-6">
                             <button
                                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
